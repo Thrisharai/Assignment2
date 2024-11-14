@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f8b400;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .cake-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cake-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .cake-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #f8b400;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .about {
+    padding: 30px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 10px;
+  }
+  
